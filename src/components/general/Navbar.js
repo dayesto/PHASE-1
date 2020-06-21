@@ -6,12 +6,12 @@ const Navbar = () => {
       className="navbar navbar-expand-lg"
       // style={{ backgroundColor: "aliceblue" }}
     >
-      <Link className="navbar-brand" href="index.html">
+      <Link className="navbar-brand" to="/">
         <img
           src="/assets/images/logonew.png"
           alt="..."
-          height="50"
-          width="100"
+          height="100"
+          width="200"
         />
       </Link>
       <button
@@ -28,132 +28,133 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <Link className="nav-link" href="#" style={{ color: "black" }}>
+            <Link className="nav-link" to="/" style={{ color: "#0e2255" }}>
               <b>Home</b> <span className="sr-only">(current)</span>
             </Link>
           </li>
           <li className="nav-item dropdown">
             <Link
               className="nav-link dropdown-toggle"
-              href="#"
+              to="#"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              style={{ color: "black" }}
+              style={{ color: "#0e2255" }}
             >
               <b>About</b>
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link
                 className="dropdown-item"
-                href="./company.html"
-                style={{ color: "black" }}
+                to="./company.html"
+                style={{ color: "#0e2255" }}
               >
                 The Company
               </Link>
               <div className="dropdown-divider"></div>
               <Link
                 className="dropdown-item"
-                href="./expertise.html"
-                style={{ color: "black" }}
+                to="./expertise.html"
+                style={{ color: "#0e2255" }}
               >
                 Fields of Expertise
               </Link>
               <div className="dropdown-divider"></div>
               <Link
                 className="dropdown-item"
-                href="#"
-                style={{ color: "black" }}
+                to="#"
+                style={{ color: "#0e2255" }}
               >
                 Management
               </Link>
             </div>
           </li>
+
           <li className="nav-item dropdown">
             <Link
               className="nav-link dropdown-toggle"
-              href="#"
+              to="#"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              style={{ color: "black" }}
+              style={{ color: "#0e2255" }}
             >
-              <b>Sectors</b>
+              <b>Our Services</b>
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link
                 className="dropdown-item"
-                href="./cosultancy.html"
-                style={{ color: "black" }}
+                to="/services/processEngineering"
+                style={{ color: "#0e2255" }}
               >
-                Consultancy
+                Process Engineering
               </Link>
               <div className="dropdown-divider"></div>
               <Link
                 className="dropdown-item"
-                href="#"
-                style={{ color: "black" }}
+                to="/services/eciEngineering"
+                style={{ color: "#0e2255" }}
               >
-                Innovation
+                EC&I Engineering
               </Link>
               <div className="dropdown-divider"></div>
               <Link
                 className="dropdown-item"
-                href="#"
-                style={{ color: "black" }}
+                to="/services/mechanicalEngineering"
+                style={{ color: "#0e2255" }}
               >
-                Projects
+                Mechanical Engineering
               </Link>
             </div>
           </li>
-          <li className="nav-item active">
-            <Link className="nav-link" href="#" style={{ color: "black" }}>
+          {/* <li className="nav-item active">
+            <Link className="nav-link" to="#" style={{ color: "#0e2255" }}>
               <b>Our Services</b>
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item active">
-            <Link className="nav-link" href="#" style={{ color: "black" }}>
-              <b> Specialist Software</b>
+            <Link className="nav-link" to="#" style={{ color: "#0e2255" }}>
+              <b> Specialist Softwares</b>
             </Link>
           </li>
-          <li className="nav-item active">
-            <Link className="nav-link" href="#" style={{ color: "black" }}>
+          {/* <li className="nav-item active">
+            <Link className="nav-link" to="#" style={{ color: "#0e2255" }}>
               <b>Training</b>
             </Link>
-          </li>
-          <li className="nav-item active">
-            <Link className="nav-link" href="#" style={{ color: "black" }}>
+          </li> */}
+          {/* <li className="nav-item active">
+            <Link className="nav-link" to="#" style={{ color: "#0e2255" }}>
               <b>Projects</b>
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item active">
-            <Link className="nav-link" href="#" style={{ color: "black" }}>
-              <b>Contact</b>
+            <Link className="nav-link" to="#" style={{ color: "#0e2255" }}>
+              <b>Contact Us</b>
             </Link>
           </li>
           {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
-              href="#"
+              to="#"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              style={{ color: "black" }}
+              style={{ color: "#0e2255" }}
             >
               News and Case Study
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#" style={{ color: "black" }}>
+              <a className="dropdown-item" to="#" style={{ color: "#0e2255" }}>
                 News
               </a>
               <div className="dropdown-divider"></div>
-              <a className="dropdown-item" href="#" style={{ color: "black" }}>
+              <a className="dropdown-item" to="#" style={{ color: "#0e2255" }}>
                 Case Study
               </a>
             </div>

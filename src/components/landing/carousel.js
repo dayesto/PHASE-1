@@ -7,22 +7,29 @@ const carousel = () => {
       className="carousel slide"
       data-ride="carousel"
     >
-      <div className="carousel-inner" style={{ height: "70vh" }}>
+      <div className="carousel-inner" style={{ height: "50vh" }}>
         <div className="carousel-item active">
           <img
             src="/assets/images/24.PNG"
             className="d-block w-100"
             alt="..."
+            style={{ backgroundPosition: "50% -50%" }}
           />
         </div>
         <div className="carousel-item">
-          <img src="/assets/images/4.PNG" className="d-block w-100" alt="..." />
+          <img
+            src="/assets/images/4.PNG"
+            className="d-block w-100"
+            alt="..."
+            style={{ backgroundPosition: "-80% -80%" }}
+          />
         </div>
         <div className="carousel-item">
           <img
             src="/assets/images/13.PNG"
             className="d-block w-100"
             alt="..."
+            style={{ backgroundPosition: "50% -50%" }}
           />
         </div>
       </div>

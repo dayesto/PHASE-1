@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "#000080", color: "white" }}>
+    <div style={{ backgroundColor: "#0e2255", color: "white" }}>
       <div className="container">
         <div className="row">
           <div
